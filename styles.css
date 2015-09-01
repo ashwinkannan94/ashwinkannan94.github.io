@@ -1,9 +1,6 @@
 body {
 padding: 0;
 margin: 0;
-background-image: <img src=;
-background-repeat: no-repeat;
-background-position: right top;
 }
 #navigation {
 position: fixed;
