@@ -1,67 +1,11 @@
 .jumbotron
 {
-	background-image: url('../pic4	.jpg');	
+	background-image: url('../jumbotron-background.jpg');	
 	-webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
 	width: 100% 100%;
 	padding-bottom: 0px;
-}
-.color
-{
-	background-color: black;
-}
-
-.text-center
-{
-	color: white;
-}
-
-.quote{
-	color: white;
-	text-align: center;
-	padding-top: 350px;
-	font-family: PT Sans Narrow, serif;
-}	
-
-.name{
-	font-family: Lora,Serif;
-	padding-top: 30px;
-}
-.headings
-{
-	padding-top: 100px;
-	text-align: center;
-	color: white;
-	font-family: Lora, serif;
-	font-weight: bold;
-	font-variant: underline;
-}
-.sub-sections1
-{
-	padding-top: 20px;
-	color: white;
-	font-family: Lora, serif;
-	padding-left: 350px;
-}
-.sub-sections
-{
-	color: white;
-	font-family: Lora, serif;
-	padding-left: 350px;
-}
-.indented
-{
-	color: white;
-	font-family: PT Sans Narrow, serif;
-	padding-left: 375px;
-	font-size: 20px;
-}
-.indented-bullets
-{
-	color: white;
-	font-family: PT Sans Narrow, serif;
-	padding-left: 400px;
-	font-size: 20px;
+	height: 700px;
 }
