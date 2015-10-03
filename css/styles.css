@@ -10,10 +10,16 @@
 	height: 700px;
 }
 
-.text-center
+.white
 {
 	color: white;
 }
-.name{
+.name
+{
 	padding-top: 60px;
+}
+
+.info
+{
+	background-color: #005479;
 }
