@@ -1,6 +1,6 @@
 body
 {
-	background-color: #005479;
+	background-color: #0D84A4;
 }
 .jumbotron
 {
@@ -8,7 +8,7 @@ body
 	-webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    background-size: 110% 100%;
 	width: 100% 100%;
 	padding-bottom: 0px;
 	height: 700px;
@@ -26,7 +26,7 @@ body
 
 .info
 {
-	background-color: #005479;
+	background-color: #0D84A4;
 }
 
 h4 a
@@ -49,4 +49,8 @@ h4 a:visited
 {
 	text-align:center;
 	padding-top: 30px;
+}
+.divider
+{
+	background-color: #004D73
 }
