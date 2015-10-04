@@ -1,3 +1,7 @@
+body
+{
+	background-color: #0283AD;
+}
 .jumbotron
 {
 	background-image: url('../jumbotron-background.jpg');	
@@ -22,4 +26,26 @@
 .info
 {
 	background-color: #005479;
+}
+
+h4 a
+{
+	color: white;
+	text-decoration: underline;
+}
+h4 a:hover { 
+    color: white;
+}
+h4 a:visited
+{
+	color: white;
+}
+.centered
+{
+    text-align:center;
+}
+.centered-lowered
+{
+	text-align:center;
+	padding-top: 30px;
 }
