@@ -1,6 +1,6 @@
 body
 {
-	background-color: #0283AD;
+	background-color: #005479;
 }
 .jumbotron
 {
@@ -12,6 +12,7 @@ body
 	width: 100% 100%;
 	padding-bottom: 0px;
 	height: 700px;
+	padding-bottom: 0px;
 }
 
 .white
