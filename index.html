@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Ashwin Kannan </title>
-		<meta name="viewport" content="width=width-device, initial-scale=1.0">
+<head>
+  <title>Ashwin Kannan</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=width-device, initial-scale=1.0">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/styles1.css" rel="stylesheet">
 		<link href="css/bootstrap-social.css" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<!-- Linking font styles from google -->
 		<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
-	</head>
-	
-	<body>
-		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<a href="#home" class="navbar-brand">Ashwin Kannan</a>
-					<button class="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse navHeaderCollapse">
+  <style>
+  body {
+      position: relative; 
+  }
+  
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#home" style="font-family: 'Lora', 'Serif'" "font-weight='bold'">Ashwin Kannan</a>
+    </div>
+   <div>
+				<div class="collapse navbar-collapse" id="navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#about-me" class="smoothScroll">ABOUT ME</a></li>
-						<li><a href="#education" class="smoothScroll">EDUCATION</a></li>
-						<li><a href="#work" class="smoothScroll">WORK</a></li>
-						<li><a href="#projects"class="smoothScroll">PROJECTS</a></li>
-						
-						<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
-						<li><a href="#">BLOG</a></li>
+						<li><a href="#about-me" >ABOUT ME</a></li>
+						<li><a href="#education" >EDUCATION</a></li>
+						<li><a href="#work" >WORK</a></li>
+						<li><a href="#projects">PROJECTS</a></li>
+						<li><a href="#contact" >CONTACT</a></li>
 					</ul>
 				</div>
-			</div>
-		</div>
-		
-		<a id="home"></a>
-		<div class= "row white">
+				</div>
+  </div>
+</nav>    
+
+
+		<div class= "row white" id="home">
 			<div class="col-md-12 jumbotron">
 				<div class="text-center">
 					<h1 class="name" style="font-family: 'Lora', 'Serif'"> Ashwin Kannan </h1>
@@ -48,27 +55,33 @@
 					<br>
 					Graduation: June 2016
 					</p>
-					<img src="profile-picture.jpg" class="img-circle" alt="Profile Picture" width="304" height="286">					
+					<img src="profile-picture.jpg" class="img-circle" alt="Profile Picture" width="304" height="286"/>					
 				</div>
 			</div>	
 		</div>
-		
-		<a id="about-me"></a>
-			
-				
-		<div class="row info">
+
+<div id="about-me">
+  <div class="row info">
 			<h1 class="text-center white">ABOUT  ME</h1>
 			
 			<div class="container">
-			<dl class="white">
-				I am a fourth year Electrical Engineering major at UCSD. My depths are Artifical Intelligence/ Machine Learning and Photonics. 
-				When I am not at the library studying, I like to do a lot of outdoor activities such as running, hiking, and swimming. 
-				I have  volunteered over 200 hours to various organizations such as the American Red Cross, the San Ramon City Library and at various
-				events at UCSD. 				 
-			</dl>
-			<br>
-			<a id="education"></a>
-			<h1 class="text-center white">EDUCATION</h1>
+				
+				<div class="row" >
+					<div class="col-md-4 centered" class="text-center"><img src="ucsd.png" class="img-circle" alt="Profile Picture" width="250px"/></div>
+					<div class="col-md-8">
+					<dl class="white">
+						I am a fourth year Electrical Engineering major at UCSD. My depths are Artifical Intelligence/ Machine Learning and Photonics. 
+						When I am not at the library studying, I like to do a lot of outdoor activities such as running, hiking, and swimming. 
+						I have  volunteered over 200 hours to various organizations such as the American Red Cross, the San Ramon City Library and at various
+						events at UCSD. 				 
+					</dl>
+					</div>
+				</div>
+			</div>
+</div>
+</div>
+<div id="education" class="container">
+  <h1 class="text-center white">EDUCATION</h1>
 		
 			<dl>
 				<dt class="white">
@@ -124,15 +137,21 @@
 					<dd class="white">CSS</dd>
 					<dd class="white">JavaScript</dd>
 					<br>
-					<dd class="white">Bootstrap</dd>	
-				
-
-			<a id="work"></a>	
-			<h1 class="text-center white">WORK</h1>
+					<dd class="white">Bootstrap</dd>
+				</dl>
+</div>
+<div id="work" class="container">
+  <h1 class="text-center white">WORK</h1>
 			
 				<dt class=" text-center white">
 					<h4>Intern at <a href="http://way.com" target="_blank">Way.com</a></h4>	
 				</dt>
+					<div class="row">
+					<div class="col-md-4 centered"></div>
+					<div class="col-md-4 centered"><img src="way.jpg"/></div>
+					<div class="col-md-4 centered"></div>
+				</div>
+				<br>
 					<dd class="white">
 					Last summer at Way.com, I got to help with developing and testing an 'Internet Of Things' device that the company was 
 					building for its users. The application that the company is currently going to use it for is parking garages and solving a 
@@ -214,12 +233,20 @@
 					list of those.
 					</dd>
 					<br>
-			<a id="projects"></a>
-			<h1 class="text-center white">PROJECTS</h1>	
-			
+</div>
+<div id="projects" class="container">
+  <h1 class="text-center white">PROJECTS</h1>	
+				<br>
 				<dt class="text-center white">
 					<h4>Project Lead Engineers Without Borders UCSD</h4>
 				</dt>
+				
+					<div class="row">
+					<div class="col-md-2 centered"></div>
+					<div class="col-md-8 centered"><img src="ewb-logo.jpg"/></div>
+					<div class="col-md-2 centered"></div>
+					</div>
+					<br>
 					<dd class="white">
 					I have been the project lead of the Rwanda Project for more than a year now. The Rwanda Project is an EWB approved project that UCSD is doing
 					in Bungwe, Rwanda. Bungwe is a rural farming town located in Eastern Rwanda and the main problem that the people of Bungwe are facing is a lack 
@@ -267,10 +294,34 @@
 					the school year, I lead a team of about 25 people in designing the water tanks and had to deal with all the things that came with leading such a large group 
 					of college students. I am now looking forward to leading another team of students in our next adventure with a new community.
 					</dd>
-				
+					
+					<br>
+					<div class="row">
+					<div class="col-md-4 centered"><img src="Rwanda-house.jpg"/></div>
+					<div class="col-md-4 centered"><img src="Rwanda-school.jpg"/></div>
+					<div class="col-md-4 centered"><img src="Rwanda-water-situation.jpg"/></div>
+					</div>
+					
+					<div class="row">
+					<div class="col-md-4 centered"><dd class="white">This is how the community is currently collecting water during the rainy seasons and we are trying
+					to improve what they are currently doing by building a water tank instead of all those small jerry-cans</dd></div>
+					<div class="col-md-4 centered"><dd class="white"> This is the school in the community and behind the school is the soccer field with a goal
+					built from wooden sticks and a make-shift volleyball court in the middle. We are trying to make all of these better for the community such 
+					that the kids would rather be out playing sports instead of doing bad things like joining gangs </dd></div>
+					<div class="col-md-4 centered"><dd class="white"> As you can see in the picture above, they have no drinking water readily available in the community
+					and this is the main problem we are trying to make this better</dd></div>
+					</div>
+					<br>
 				<dt class="white text-center">
 					<h4>SD Hacks Project</h4>
 				</dt>
+				<br>
+				<div class="row">
+					<div class="col-md-4 centered"></div>
+					<div class="col-md-4 centered"><img src="SD-hacks-logo.png"/></div>
+					<div class="col-md-4 centered"></div>
+				</div>
+				<br>
 					<dd class="white">
 					This is the main part of my SD hacks project. I used HTML, CSS, JavaScript and Bootstrap to design this website. I learned all of these languages and 
 					mark-ups by myself during the summer.
@@ -282,17 +333,18 @@
 					allow for users to make an account, build their profile with that they have done at previous hack-a-thons that they have attended, the skills that the 
 					user has in terms of languages that he or she knows. Then the user can sign up for a hack-a-thon which will be displayed on the screen based on date and 
 					proximity to the user. Once the user has signed up for the hack-a-thon, he or she can view other users going to the hack-a-thon and see their profile. 
-					If the 
+					If the user wants to talk to another user who he or she is interested in making a team with, there will be a message option and also a team builder option
+					such that it can accomodate multiple users.
+					</dd>
 					<br>
 					<dd class="white">
 					Since at this point all I know are front-end languages, I have built the front-end for this website and will be building the back end either by learning 
 					the appropriate languages or joining a team at my next hack-a-thon for building this website. I will keep you updated on my progress with the website. 
 					</dd>
-					
-			
-			
-			<a id="contact"></a>
-			<h1 class="text-center white">CONTACT ME</h1>
+</div>
+
+<div id="contact" class="container-fluid">
+  <h1 class="text-center white">CONTACT ME</h1>
 			
 			<div class="row">
 			<div class="col-md-4 centered"><a href="mailto:akannan@ucsd.edu"><img src="http://i631.photobucket.com/albums/uu40/paulcrowe/email-3.png" alt="Click to email me" class="social-class" /></a></div>
@@ -300,19 +352,14 @@
 			<div class="col-md-4 centered-lowered"><a class="btn btn-social btn-linkedin" href="https://www.linkedin.com/profile/view?id=AAIAABL_w5kBvduUR2OpvsLQtKSXbc68_QhRzu4&trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin"></i>Linkedin</a></div>
 			</div>
 			
+</div>
+		<div class="container text-center white space">
+			<h4> Site made by Ashwin Kumar Kannan </h4>
 		</div>
-		
-		<div class="navbar navbar-inverse navbar-static-bottom">
-			<div class="container">
-				<div class="navbar-header">				
-				<p class="navbar-text">Site built by Ashwin Kannan</p>
-				</div>
-			</div>
-		</div>
-		</dl>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		
 		<script src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/smoothscroll.js"></script>
-	</body>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+</body>
 </html>
